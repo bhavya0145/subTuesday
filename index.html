@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum of Two Numbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<table border="1">
+    <tbody>
+    <tr>
+        <td>First Number</td>
+        <td id="first"></td>
+    </tr>
+    <tr>
+        <td>Second Number</td>
+        <td id="second"></td>
+    </tr>
+    <tr>
+        <td>Sum</td>
+        <td id="output"></td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+    let a = parseInt(prompt("Enter the value of a:"), 10);
+    let b = parseInt(prompt("Enter the value of b:"), 10);
+
+    document.getElementById("first").textContent = a;
+    document.getElementById("second").textContent = b;
+    document.getElementById("output").textContent = "SUM: " + (a + b);
+</script>
+
+</body>
+</html>
